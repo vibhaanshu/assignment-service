@@ -2,15 +2,15 @@ package com.service.assignment.model;
 
 public class AssignmentResponse {
 	
-	String[][] data = { {"Date", "Assignment","Submission", "Average"}, {"1","10.0","0"},
-			{"1","10.0","0"},{"1","10.0","0"},{"1","10.0","0"}};
+	Object[][] assignList = { {"Date", "Assignment","Submission", "Average"}, {"1",10,0,0},
+			{"2",10,0,0},{"3",10,0,0},{"4",10,0,0}};
 
-	public String[][] getData() {
-		return data;
+	public Object[][] getAssignList() {
+		return assignList;
 	}
 
-	public void setData(String[][] data) {
-		this.data = data;
+	public void setAssignList(Object[][] data) {
+		this.assignList = data;
 	}
 
 	
